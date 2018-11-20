@@ -54,3 +54,9 @@ for kazuma in kazuma_info:
 menbers = ['Kazuma', 'Makoto', 'Ohira']
 print(menbers[0])
 print(menbers[2])
+
+
+users_info = {"Kazuma":35,"Tom":57,"Bob":77}
+for user_name in users_info:
+    print("Name:" + user_name + " Age:" + str(users_info[user_name]))
+
