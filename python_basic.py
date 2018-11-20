@@ -60,3 +60,10 @@ users_info = {"Kazuma":35,"Tom":57,"Bob":77}
 for user_name in users_info:
     print("Name:" + user_name + " Age:" + str(users_info[user_name]))
 
+
+
+kazuma_info = {"first_name":"Kazuma","family_name":"Takahashi", "age":"35"}
+print(kazuma_info["first_name"])
+print(kazuma_info["family_name"])
+print(kazuma_info["age"])
+
