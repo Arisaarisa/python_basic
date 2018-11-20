@@ -1,9 +1,30 @@
 # class User:
 #     def __init__(self):
-users = ['Bob', 'Tom','Ken']
+# users = ['Bob', 'Tom','Ken']
 #
 #
-int_numbers = [1,2,3,4,5]
+# int_numbers = 1
+# while int_numbers <= 5:
+#     print(int_numbers)
+#     int_numbers += 1
+
+
+
+numbers = 1
+while numbers <= 10:
+    print(numbers)
+    numbers += 1
+
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+for odd_number in numbers:
+    if odd_number % 2 == 0:
+        continue
+
+    print(odd_number)
+
+
+
 
 
 # def kazuma_info(self, name,family,age):
