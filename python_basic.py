@@ -55,6 +55,6 @@ def bmi(user_height, user_weight):
 user_height = int(input('height?:'))
 user_weight = int(input('weight?:'))
 
-print('your bmi' + str(round)
+print('your bmi' + str(round))
 
-bmi()
+bmi(user_height,user_weight)
