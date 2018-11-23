@@ -47,14 +47,24 @@ def dice():
 
 dice()
 
+#
+# def bmi(user_bmi):
+#     return user_bmi
+#
+#
+# user_height = int(input('height?:'))
+# user_weight = int(input('weight?:'))
+# user_bmi = round(user_weight / (user_height ** 2))
+# prnt('your bmi' + str(bmi(user_bmi))
+#
 
-def bmi(user_height, user_weight):
-    return round(user_weight / (user_height ** 2))
 
+input_height = input('Height(m)? >')
+input_weight = input('Weight(kg)? >')
 
-user_height = int(input('height?:'))
-user_weight = int(input('weight?:'))
+height = int(input_height)
+weight = int(input_weight)
 
-print('your bmi' + str(round))
+bmi = format(weight / (height ** 2))
 
-bmi(user_height,user_weight)
+print(str(bmi))
