@@ -1,3 +1,5 @@
+from unittest import result
+
 users = ['Bob', 'Tom', 'Ken']  # A1
 print(users)
 
@@ -47,6 +49,7 @@ def dice():
 
 dice()
 
+
 #
 # def bmi(user_bmi):
 #     return user_bmi
@@ -58,13 +61,16 @@ dice()
 # prnt('your bmi' + str(bmi(user_bmi))
 #
 
+# def bmi_chi(height, weight):
+
+# return result
+
 
 input_height = input('Height(m)? >')
 input_weight = input('Weight(kg)? >')
 
-height = int(input_height)
+height = int(float(input_height))
 weight = int(input_weight)
+bmi = format(weight / (height ** 2), 2)
 
-bmi = format(weight / (height ** 2))
-
-print(str(bmi))
+print(bmi)
